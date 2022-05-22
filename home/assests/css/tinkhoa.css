@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.app .header .container {
+  text-align: center;
+}
+
+.app .container .main_container .item {
+  background: #fff;
+  border: 1px solid #e3efef;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+  font-size: 18px;
+  line-height: 22px; 
+}
+
+.app .footer {
+    padding-top: 200px;
+}

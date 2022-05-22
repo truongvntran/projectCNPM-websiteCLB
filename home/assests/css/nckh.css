@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.app .header .container {
+  text-align: center;
+}
+
+.app .main_container .sidebar .page_title {
+  border-top: 2px solid #d3d3d3;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 1.5rem;
+  color: rgb(37, 42, 42);
+}
+
+.app .main_container .container .item{
+  background: #fff;
+  border: 1px solid #E0F2F1;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.app .main_container .container .item .card-img {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.app .footer {
+  padding-top: 200px;
+}
