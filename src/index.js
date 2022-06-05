@@ -3,7 +3,7 @@ const express = require('express')
 const { engine } = require('express-handlebars');
 const routes = require('./routers/index')
 const app = express()
-const port = 3000
+const port = 8080
 const db = require('./config/db')
 
 db.connect()
@@ -23,6 +23,9 @@ app.engine(
     'hbs',
     engine({
       extname: '.hbs',
+      helpers: {
+        sum: (a,b) => a + b
+      }
     }),
   );
   

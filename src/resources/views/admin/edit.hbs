@@ -1,0 +1,14 @@
+<div class="mt-4 ml-4">
+    <h3>Cập nhật thông báo</h3>
+    <form class="mt-4" method="POST" action="/admin/{{notify._id}}?_method=PUT">
+        <div class="form-group">
+            <label for="name">Tiêu đề</label>
+            <input type="text" class="form-control" value="{{notify.title}}" id="name" name = "name">
+        </div>
+        <div class="form-group">
+            <label for="description">Link</label>
+            <textarea class="form-control"  id="description" name = "description">{{notify.link}}</textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Lưu lại</button>
+    </form>
+</div>

@@ -1,8 +1,8 @@
 const siteRouter = require('./site');
-const loginRouter = require('./login');
+const loginRouter = require('./admin');
 
 function routes(app){
-    app.use('/login',loginRouter)
+    app.use('/admin',loginRouter)
     app.use('/',siteRouter)
 }
 
