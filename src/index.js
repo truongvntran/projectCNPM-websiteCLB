@@ -2,6 +2,7 @@ const path = require('path');
 const express = require('express')
 const { engine } = require('express-handlebars');
 const routes = require('./routers/index')
+const methodOverride = require('method-override')
 const app = express()
 const port = 8080
 const db = require('./config/db')
@@ -17,6 +18,7 @@ app.use(
   );
   
 app.use(express.json());
+app.use(methodOverride('_method'))
 
 
 app.engine(

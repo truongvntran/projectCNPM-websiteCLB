@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="mt-4 ml-4">
+        <h3>Cập nhật tài liệu</h3>
+        <form class="mt-4" method="POST" action="/admin/{{document._id}}/updateDocument?_method=PUT">
+            <div class="form-group">
+                <label for="title">Tiêu đề</label>
+                <input type="text" class="form-control" value="{{document.title}}" id="title" name = "title">
+            </div>
+            <div class="form-group">
+                <label for="link">Link</label>
+                <textarea class="form-control"  id="link" name = "link">{{document.link}}</textarea>
+            </div>
+            <div class="form-group">
+                <label for="img">Hình ảnh</label>
+                <textarea class="form-control"  id="img" name = "img">{{document.img}}</textarea>
+            </div>
+            <div class="form-group">
+                <label for="content">Nội dung</label>
+                <textarea class="form-control"  id="content" name = "content">{{document.content}}</textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Lưu lại</button>
+        </form>
+    </div>
+</div>

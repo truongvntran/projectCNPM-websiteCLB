@@ -1,0 +1,64 @@
+
+
+.detailNew {
+  display: flex;
+  max-width: 1200px;
+  width: auto;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.detailNew .left .card{
+  display: flex;
+  /* max-width: 300px; */
+  width: auto;
+  border: 1px solid #d2d1d1;
+  padding: 15px 25px;
+  color: #003478;
+  font-size: 18px;
+  margin-right: 25px;
+}
+
+.detailNew .right {
+  width: 860px;
+}
+
+.detailNew .content{
+  border: 1px solid #d2d1d1;
+}
+.detailNew .right .content h4 {
+  color: #000;
+  margin-top: 10px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+.detailNew .txt{
+  display: block;
+  margin-left: 0px;
+}
+
+.detailNew .txt p {
+  margin-bottom: 3px;
+  margin-left: 15px;
+  font-size: 15px;
+} 
+
+.detailNew .txt a{
+  margin-bottom: 3px;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.detailNew .txt img {
+  width: 840px;
+  text-align: center;
+  margin: 15px 10px;
+}
+
+.detailNew .another {
+  /* margin-top: 50px;
+  margin-left: 25px; */
+  margin: 50px 25px;
+  font-size: 15px;
+}

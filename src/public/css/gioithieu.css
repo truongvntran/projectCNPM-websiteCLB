@@ -1,0 +1,44 @@
+.introduce {
+  display: flex;
+  max-width: 1200px;
+  width: auto;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.introduce .left .card{
+  display: flex;
+  max-width: 300px;
+  width: auto;
+  border: 1px solid #d2d1d1;
+  padding: 15px 25px;
+  color: #003478;
+  font-size: 18px;
+  margin-right: 25px;
+}
+
+.introduce .right {
+  width: 860px;
+  border: 1px solid #ccc;
+  margin-bottom: 150px;
+  text-align: center;
+  
+  
+}
+.introduce .right .content img{
+  width: 800px;
+}
+
+.introduce .right .content{
+  padding: 20px;
+}
+
+.introduce .right .content h4{
+  margin-left: 0px;
+  color: #000;
+}
+.introduce .right p{
+  font-size: 15px;
+  
+}
+

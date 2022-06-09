@@ -1,0 +1,32 @@
+<div class="introduce">
+            <div class="left">
+                <div class="card">
+                    <a href="/homepage/introduce"><p class=""><strong>GIỚI THIỆU</strong></p></a>
+                </div>
+                <div class="card">
+                    <a href="/homepage/introduce/group"><p class=""><strong>NHÓM</strong></p></a>
+                </div>
+                <div class="card">
+                    <a href="/homepage/introduce/BQT"><p class=""><strong>BAN QUẢN TRỊ</strong></p></a>
+                </div>
+                <div class="card">
+                    <a href="/homepage/introduce/chairman"><p class=""><strong>CỰU CHỦ NHIỆM</strong></p></a>
+                </div>
+            </div>
+            <div class="right">
+                <div class="content">
+                    <div class="responsive">
+                        <div class="row">
+                            {{#each group}}
+                            <div class="col-4">
+                                <h1>{{this.name}}</h1>
+                                <p>Trưởng nhóm</p>
+                                <img style="height: 200px; width: 200px;" src="{{this.avatar}}" alt="">
+                                <h2 style="margin-top: 10px;">{{this.nameLeader}}</h2>
+                            </div>
+                            {{/each}}
+                        </div>        
+                    </div>                  
+                </div>
+            </div>
+        </div>

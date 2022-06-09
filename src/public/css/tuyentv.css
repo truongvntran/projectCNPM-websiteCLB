@@ -1,0 +1,52 @@
+
+.recruit {
+    display: flex;
+    max-width: 1200px;
+    width: auto;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .left .card{
+    display: flex;
+    max-width: 300px;
+    width: auto;
+    border: 1px solid #d2d1d1;
+    padding: 15px 25px;
+    color: #003478;
+    font-size: 18px;
+    margin-right: 25px;
+  }
+  
+  .right {
+    width: 860px;
+  }
+  
+  .content{
+    border: 1px solid #d2d1d1;
+  }
+  
+  .right .content h4 {
+    color: #1656cc;
+    margin-top: 10px;
+  }
+  .text{
+    font-size: 15px;
+  }
+  
+  .text p {
+    margin-bottom: 3px;
+    margin-left: 15px;
+  } 
+  
+  .text a{
+    margin-bottom: 3px;
+    margin-left: 15px;
+  }
+  
+  .text img {
+    width: 320px;
+    height: 320px;
+    margin: 15px 10px;
+  }
+  

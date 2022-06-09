@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="mt-4 ml-4">
+        <h3>Cập nhật nhóm</h3>
+        <form class="mt-4" method="POST" action="/admin/{{group._id}}/updateGroup?_method=PUT">
+            <div class="form-group">
+                <label for="name">Tên nhóm</label>
+                <input type="text" class="form-control" value="{{group.name}}" id="name" name = "name">
+            </div>
+            <div class="form-group">
+                <label for="nameLeader">Trưởng nhóm</label>
+                <textarea class="form-control"  id="nameLeader" name = "nameLeader">{{group.nameLeader}}</textarea>
+            </div>
+            <div class="form-group">
+                <label for="avatar">Avatar</label>
+                <textarea class="form-control"  id="avatar" name = "avatar">{{group.avatar}}</textarea>
+            </div>
+            <div class="form-group">
+                <label for="description">Mô tả</label>
+                <textarea class="form-control"  id="description" name = "description">{{group.description}}</textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Lưu lại</button>
+        </form>
+    </div>
+</div>

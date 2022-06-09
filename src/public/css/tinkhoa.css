@@ -1,0 +1,102 @@
+ 
+  .new {
+    display: flex;
+    max-width: 1200px;
+    width: auto;
+    margin: auto;
+    margin-top: 20px;
+  }
+   
+  .new .left {
+    display: flex;
+    max-width: 300px;
+    width: auto;
+    color: #003478;
+    font-size: 18px;
+    margin-right: 25px;
+  }
+
+  .new .left .menu-left ul {
+    margin: -10px 0px 0px 0px;
+    padding: 0px;
+    border: 1px solid #ccc;
+  } 
+  
+  .new .left .menu-left ul li {
+    list-style: none;
+  }
+  
+  .new .left .menu-left ul li a {
+    display: block;
+    text-decoration: none;
+    line-height: 45px;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    text-indent: 15px;
+  }
+  
+  .new .left .menu-left ul li a:hover {
+    color: #1656cc;
+  }
+  
+  .new .left .menu-left h4 {
+    background: #1656cc;
+    /* max-width: 300px; */
+    width: 300px;
+    height: 40px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+    color: #fff;
+  }
+    
+  .new .right {
+    width: 860px;
+  }
+  
+  .new .page-title {
+    padding: 15px 100px;
+    font-size: 18px;
+  }
+      
+  .new .page ul {
+    margin: 0px;
+    padding: 0px;
+  }
+      
+  .new .page ul li {
+    list-style: none;
+    clear: left;
+    border-bottom: 2px solid rgb(246, 244, 244);
+    margin-bottom: 20px;
+    margin-left: 15px;
+    display: flex;
+  }
+      
+  .new .page ul li img {
+    width: 300px;
+    height: 150px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+      
+  .new .page ul li a {
+    font-size: 16px;
+    margin-right: 0;
+    display: flex;
+    color: black;
+    margin-top: 0px;
+  }
+      
+  .new .txt {
+    display: flex;
+    justify-content: end;
+    padding-top: 0;
+    margin-left: 30px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  

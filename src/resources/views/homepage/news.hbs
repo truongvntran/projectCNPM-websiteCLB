@@ -1,0 +1,39 @@
+<div class="new">
+            <div class="left">
+                <div class="menu-left">
+                    <h4>DANH MỤC TIN TỨC</h4>
+                    <ul>
+                        <li><a href="tinkhoa.html">KHOA ĐIỆN TỬ- VIỄN THÔNG</a></li>
+                            <li><a href="nckh.html">NGHIÊN CỨU KHOA HỌC</a></li>
+                            <li><a href="tinclb.html">CÂU LẠC BỘ PIONEER</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="content">
+                    <div class="page-title">
+                        <p class=""><strong>KHOA ĐIỆN TỬ-VIỄN THÔNG</strong></p>
+                    </div>
+                    <div class="page">
+                        {{#each news}}
+                        <ul>
+                            <li>
+                                <img src="{{this.img}}">
+                                <div class="txt">
+                                    <strong><a href="/homepage/detailNew">{{this.title}}</a></strong>
+                                    {{this.content}} 
+                                </div>                                
+                            </li>
+
+                            {{!-- <li>
+                                <img src="/img/mo_hinh_Tu_dong_cham_soc_vuon_rau_XELY.jpeg">
+                                <div class="txt" >
+                                    <strong><a href="https://tienphong.vn/sang-tao-giup-ich-cuoc-song-tu-tren-ghe-nha-truong-post1307636.tpo?fbclid=IwAR0-t-wyB3sfXh0s-1spMUoR9dzoH5YSYTf0YrzJ8Wliq68-YmNbsTy86VY">Mô hình Tự động chăm sóc vườn rau</a></strong>
+                                </div>                        
+                            </li> --}}
+                        </ul>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>

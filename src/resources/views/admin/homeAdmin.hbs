@@ -1,25 +1,27 @@
-<div class="row ml-4 mt-4">
-    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-4">
+<div class="mt-4 ml-5">
+    <h1>Quản lý trang câu lạc bộ Pioneer</h1>
+</div>
+
+<div class="row ml-4 mt-5">
+    <div class="col-xl-4 col-lg-3 col-md-3 col-sm-6 mb-4">
         <div class="card card-statistics">
             <div class="card-body">
                 <div class="clearfix">
                     <div class="float-left">
                         <h4 class="text-danger">
-                            <i class="fa-solid fa-bullhorn"></i>
+                            <i class="fa-solid fa-briefcase"></i>
                         </h4>
                     </div>
-                    <div class="float-right">
-                        <p class="card-text text-dark">Thông báo</p>
-                        <h4 class="bold-text">6</h4>
+                    <div class="float" style="margin-left: 50px;">
+                        <p class="card-text text-dark">Ban quản trị</p>
+                        <h4 class="bold-text">{{object.bqt}}</h4>
                     </div>
                 </div>
-                <p class="text-muted">
-                    <i class="fa fa-exclamation-circle mr-1" aria-hidden="true"></i> 65% lower growth
-                </p>
+                
             </div>
         </div>
     </div>
-    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-4">
+    <div class="col-xl-4 col-lg-3 col-md-3 col-sm-6 mb-4">
         <div class="card card-statistics">
             <div class="card-body">
                 <div class="clearfix">
@@ -28,18 +30,16 @@
                             <i class="fa-solid fa-newspaper"></i>
                         </h4>
                     </div>
-                    <div class="float-right">
+                    <div class="float" style="margin-left: 50px;">
                         <p class="card-text text-dark">Tin tức</p>
-                        <h4 class="bold-text">10</h4>
+                        <h4 class="bold-text">{{object.news}}</h4>
                     </div>
                 </div>
-                <p class="text-muted">
-                    <i class="fa fa-exclamation-circle mr-1" aria-hidden="true"></i> 65% lower growth
-                </p>
+                
             </div>
         </div>
     </div>
-    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-4">
+    <div class="col-xl-4 col-lg-3 col-md-3 col-sm-6 mb-4">
         <div class="card card-statistics">
             <div class="card-body">
                 <div class="clearfix">
@@ -48,18 +48,16 @@
                             <i class="fa-solid fa-flask"></i>
                         </h4>
                     </div>
-                    <div class="float-right">
+                    <div class="float" style="margin-left: 50px;">
                         <p class="card-text text-dark">NCKH</p>
-                        <h4 class="bold-text">6</h4>
+                        <h4 class="bold-text">{{object.research}}</object></h4>
                     </div>
                 </div>
-                <p class="text-muted">
-                    <i class="fa fa-exclamation-circle mr-1" aria-hidden="true"></i> 65% lower growth
-                </p>
+                
             </div>
         </div>
     </div>
-    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-4">
+    <div class="col-xl-4 col-lg-3 col-md-3 col-sm-6 mb-4">
         <div class="card card-statistics">
             <div class="card-body">
                 <div class="clearfix">
@@ -68,14 +66,66 @@
                             <i class="fa-solid fa-file"></i>
                         </h4>
                     </div>
-                    <div class="float-right">
+                    <div class="float" style="margin-left: 50px;">
                         <p class="card-text text-dark">Tài liệu</p>
-                        <h4 class="bold-text">1</h4>
+                        <h4 class="bold-text">{{object.document}}</h4>
                     </div>
                 </div>
-                <p class="text-muted">
-                    <i class="fa fa-exclamation-circle mr-1" aria-hidden="true"></i> 65% lower growth
-                </p>
+                
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-lg-3 col-md-3 col-sm-6 mb-4">
+        <div class="card card-statistics">
+            <div class="card-body">
+                <div class="clearfix">
+                    <div class="float-left">
+                        <h4 class="text-danger">
+                            <i class="fa-solid fa-id-badge"></i>
+                        </h4>
+                    </div>
+                    <div class="float" style="margin-left: 50px;">
+                        <p class="card-text text-dark">Liên lạc</p>
+                        <h4 class="bold-text">{{object.contact}}</h4>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-lg-3 col-md-3 col-sm-6 mb-4">
+        <div class="card card-statistics">
+            <div class="card-body">
+                <div class="clearfix">
+                    <div class="float-left">
+                        <h4 class="text-danger">
+                            <i class="fa-solid fa-user-group"></i>
+                        </h4>
+                    </div>
+                    <div class="float" style="margin-left: 50px;">
+                        <p class="card-text text-dark">Nhóm</p>
+                        <h4 class="bold-text">{{object.group}}</h4>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-4 col-lg-3 col-md-3 col-sm-6 mb-4">
+        <div class="card card-statistics">
+            <div class="card-body">
+                <div class="clearfix">
+                    <div class="float-left">
+                        <h4 class="text-danger">
+                            <i class="fa-solid fa-user-group"></i>
+                        </h4>
+                    </div>
+                    <div class="float" style="margin-left: 50px;">
+                        <p class="card-text text-dark">Cựu chủ nhiệm</p>
+                        <h4 class="bold-text">{{object.chairman}}</h4>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>

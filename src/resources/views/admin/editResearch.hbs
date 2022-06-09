@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="mt-4 ml-4">
+        <h3>Cập nhật NCKH</h3>
+        <form class="mt-4" method="POST" action="/admin/{{researchs._id}}/updateResearch?_method=PUT">
+            <div class="form-group">
+                <label for="title">Tiêu đề</label>
+                <input type="text" class="form-control" value="{{researchs.title}}" id="title" name = "title">
+            </div>
+            <div class="form-group">
+                <label for="link">Link</label>
+                <textarea class="form-control"  id="link" name = "link">{{researchs.link}}</textarea>
+            </div>
+            <div class="form-group">
+                <label for="img">Hình ảnh</label>
+                <textarea class="form-control"  id="img" name = "img">{{researchs.img}}</textarea>
+            </div>
+            <div class="form-group">
+                <label for="content">Nội dung</label>
+                <textarea class="form-control"  id="content" name = "content">{{researchs.content}}</textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Lưu lại</button>
+        </form>
+    </div>
+</div>
