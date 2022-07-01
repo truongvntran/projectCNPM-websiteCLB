@@ -4,18 +4,13 @@ const { engine } = require('express-handlebars');
 const routes = require('./routers/index')
 const methodOverride = require('method-override')
 const app = express()
-const port = 8080
+const port = 3000
 const db = require('./config/db')
 
 db.connect()
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(
-    express.urlencoded({
-      extended: true,
-    }),
-  );
   
 app.use(express.json());
 app.use(methodOverride('_method'))
